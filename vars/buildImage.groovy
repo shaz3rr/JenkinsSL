@@ -6,4 +6,5 @@ def call() {
         sh 'docker build -t localhost:8083/java-maven-app:4.0 .'
         sh "echo ${PASS} | docker login -u ${USER} --password-stdin localhost:8083"
         sh 'docker push localhost:8083/java-maven-app:4.0'
+    }
 }
