@@ -1,3 +1,1 @@
-static void main(String[] args) {
-  println "yo"
-}
+localhost:8083/java-maven-app:4.0
